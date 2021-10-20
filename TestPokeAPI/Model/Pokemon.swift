@@ -6,12 +6,3 @@
 //
 
 import Foundation
-
-struct Pokemons: Codable {
-    var results: [Pokemon]?
-}
-
-struct Pokemon: Codable {
-    var name: String?
-    var urlPokemon: String?
-}
