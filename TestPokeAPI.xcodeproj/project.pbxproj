@@ -19,6 +19,10 @@
 		8822652B271E4DB500025E27 /* InitialViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 88226529271E4DB500025E27 /* InitialViewController.xib */; };
 		8822652F271E592E00025E27 /* PokemonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8822652D271E592E00025E27 /* PokemonTableViewCell.swift */; };
 		88226530271E592E00025E27 /* PokemonTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8822652E271E592E00025E27 /* PokemonTableViewCell.xib */; };
+		886269AC2722E533002A5584 /* Sprites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269AB2722E532002A5584 /* Sprites.swift */; };
+		886269AE2722E5AB002A5584 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269AD2722E5AB002A5584 /* HTTPMethod.swift */; };
+		886269B02722EA0A002A5584 /* ListPokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269AF2722EA0A002A5584 /* ListPokemon.swift */; };
+		886269B22722EA56002A5584 /* Results.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886269B12722EA56002A5584 /* Results.swift */; };
 		88ABF00B271F8D71003B2056 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABF00A271F8D71003B2056 /* API.swift */; };
 		88ABF00D271F935B003B2056 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88ABF00C271F935B003B2056 /* EndPoint.swift */; };
 /* End PBXBuildFile section */
@@ -38,6 +42,10 @@
 		88226529271E4DB500025E27 /* InitialViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InitialViewController.xib; sourceTree = "<group>"; };
 		8822652D271E592E00025E27 /* PokemonTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonTableViewCell.swift; sourceTree = "<group>"; };
 		8822652E271E592E00025E27 /* PokemonTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PokemonTableViewCell.xib; sourceTree = "<group>"; };
+		886269AB2722E532002A5584 /* Sprites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sprites.swift; sourceTree = "<group>"; };
+		886269AD2722E5AB002A5584 /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		886269AF2722EA0A002A5584 /* ListPokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListPokemon.swift; sourceTree = "<group>"; };
+		886269B12722EA56002A5584 /* Results.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Results.swift; sourceTree = "<group>"; };
 		88ABF00A271F8D71003B2056 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		88ABF00C271F935B003B2056 /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,7 +95,11 @@
 			children = (
 				88226519271E496E00025E27 /* Pokemon.swift */,
 				88ABF00A271F8D71003B2056 /* API.swift */,
+				886269AD2722E5AB002A5584 /* HTTPMethod.swift */,
 				88ABF00C271F935B003B2056 /* EndPoint.swift */,
+				886269AB2722E532002A5584 /* Sprites.swift */,
+				886269AF2722EA0A002A5584 /* ListPokemon.swift */,
+				886269B12722EA56002A5584 /* Results.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -214,12 +226,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				8822652A271E4DB500025E27 /* InitialViewController.swift in Sources */,
+				886269B02722EA0A002A5584 /* ListPokemon.swift in Sources */,
 				88226504271E487700025E27 /* AppDelegate.swift in Sources */,
 				88ABF00D271F935B003B2056 /* EndPoint.swift in Sources */,
+				886269AC2722E533002A5584 /* Sprites.swift in Sources */,
 				8822651A271E496E00025E27 /* Pokemon.swift in Sources */,
+				886269B22722EA56002A5584 /* Results.swift in Sources */,
 				8822652F271E592E00025E27 /* PokemonTableViewCell.swift in Sources */,
 				88226520271E4C0F00025E27 /* HomeViewController.swift in Sources */,
 				88226526271E4DA600025E27 /* DetailsViewController.swift in Sources */,
+				886269AE2722E5AB002A5584 /* HTTPMethod.swift in Sources */,
 				88ABF00B271F8D71003B2056 /* API.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

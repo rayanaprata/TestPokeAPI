@@ -6,3 +6,17 @@
 //
 
 import Foundation
+
+struct Pokemon: Codable {
+    var id: Int?
+    var name: String?
+    var height: Int?
+    var weight: Int?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name
+        case height
+        case weight
+    }
+}

@@ -8,7 +8,7 @@
 import UIKit
 
 class InitialViewController: UIViewController {
-
+    
     // MARK: Outlets
     @IBOutlet weak var buttonStart: UIButton!
     
