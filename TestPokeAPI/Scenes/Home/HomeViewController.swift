@@ -66,7 +66,7 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
            let pokemon = listPokemons!.results[indexPath.row]
            
            if let cell = tableViewPokemons.dequeueReusableCell(withIdentifier: "PokemonTableViewCell") as? PokemonTableViewCell {
-               //cell.setup(pokemon)
+               cell.labelPokemonName.text = pokemon.name?.capitalized
                return cell
            }
            

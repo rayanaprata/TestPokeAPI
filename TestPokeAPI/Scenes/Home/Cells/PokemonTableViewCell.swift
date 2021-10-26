@@ -25,8 +25,4 @@ class PokemonTableViewCell: UITableViewCell {
 
     }
     
-    func setup (_ pokemon: Pokemon) {
-        labelPokemonName.text = pokemon.name
-    }
-    
 }
